@@ -1,0 +1,19 @@
+version: "2"
+
+services: 
+    ATL_Tech_company_webserver:
+        image: nginx:latest
+        ports:
+            -"8001:80"
+ 
+    ATL_Consulting_company_webserver:
+        image: nginx:latest
+        ports:
+            -"8002:80"
+           
+ 
+    ATL_Academy_company_webserver:
+        image: nginx:latest
+        ports:
+            -"8003:80"
+ 
